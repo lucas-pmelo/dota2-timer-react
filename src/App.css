@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  background-color: rgb(61, 16, 16);
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-holder {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stopwatch {
+  margin-right: 1.8rem;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #333;
+}
+
+.stopwatch-btn-gre {
+  margin-left: 3rem;
+}
+
+.stopwatch-btn-red {
+  margin-left: 3rem;
+}
+
+.roshan-timer {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #333;
+  margin-left: 5rem;
+}
+
+.roshan-status {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 100;
+  color: whitesmoke;
+  margin-left: 4rem;
+}
+
+.roshan-img {
+  margin-top: -1rem;
+}
